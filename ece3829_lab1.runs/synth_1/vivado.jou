@@ -2,11 +2,11 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Tue Jan 15 05:41:21 2019
-# Process ID: 8852
+# Start of session at: Tue Jan 15 15:23:32 2019
+# Process ID: 11456
 # Current directory: C:/Users/jcpsp/Desktop/githubs/ece3829-lab1/ece3829_lab1.runs/synth_1
-# Command line: vivado.exe -log seven_seg.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source seven_seg.tcl
-# Log file: C:/Users/jcpsp/Desktop/githubs/ece3829-lab1/ece3829_lab1.runs/synth_1/seven_seg.vds
+# Command line: vivado.exe -log lab1_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab1_top.tcl
+# Log file: C:/Users/jcpsp/Desktop/githubs/ece3829-lab1/ece3829_lab1.runs/synth_1/lab1_top.vds
 # Journal file: C:/Users/jcpsp/Desktop/githubs/ece3829-lab1/ece3829_lab1.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
-source seven_seg.tcl -notrace
+source lab1_top.tcl -notrace

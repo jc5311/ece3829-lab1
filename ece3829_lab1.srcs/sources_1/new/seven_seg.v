@@ -33,13 +33,12 @@ module seven_seg(
     output reg [3:0] an
     );
     
-    always @(A, SEL)
+    always @(A, B, C, D, SEL)
         //no buttons pressed, display A on seg-disp 1
         if (SEL == 0)
         begin
             //turn on first seg-disp
-            an = 4'b1110;
-            
+            an = 4'b1110;            
             //check value of A
             if (A == 2'b00)
                 seg = 7'b1000000;
@@ -71,7 +70,7 @@ module seven_seg(
                 seg = 7'b0100001;
             else if (A == 14)
                 seg = 7'b0000110;
-            else if (A == 15)
+            else
                 seg = 7'b0001110;
         end
         
@@ -111,7 +110,7 @@ module seven_seg(
                 seg = 7'b0100001;
             else if (B == 14)
                 seg = 7'b0000110;
-            else if (B == 15)
+            else
                 seg = 7'b0001110;
         end
         
@@ -151,10 +150,10 @@ module seven_seg(
                 seg = 7'b0100001;
             else if (C == 14)
                 seg = 7'b0000110;
-            else if (C == 15)
+            else
                 seg = 7'b0001110;
         end
-        else if (SEL == 2'b11)
+        else
         begin
             //turn on first seg-disp
             an = 4'b0111;
@@ -190,7 +189,7 @@ module seven_seg(
                 seg = 7'b0100001;
             else if (D == 14)
                 seg = 7'b0000110;
-            else if (D == 15)
+            else
                 seg = 7'b0001110;
         end
             
