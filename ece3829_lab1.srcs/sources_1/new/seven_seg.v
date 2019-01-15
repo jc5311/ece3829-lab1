@@ -38,41 +38,41 @@ module seven_seg(
         if (SEL == 0)
         begin
             //turn on first seg-disp
-            an = 1'b1;
+            an = 4'b1110;
             
             //check value of A
             if (A == 0)
-                seg = 7'b0111111;
+                seg = 7'b1000000;
             else if (A == 1)
-                seg = 7'b0000110;
-            else if (A == 2)
-                seg = 7'b1011011;
-            else if (A == 3)
-                seg = 7'b1001111;
-            else if (A ==4 )
-                seg = 7'b1100110;
-            else if (A == 5)
-                seg = 7'b1101101;
-            else if (A == 6)
-                seg = 7'b1111101;
-            else if (A == 7)
-                seg = 7'b0000111;
-            else if (A == 8)
-                seg = 7'b1111111;
-            else if (A == 9)
-                seg = 7'b1101111;
-            else if (A == 10)
-                seg = 7'b1110111;
-            else if (A == 11)
-                seg = 7'b1111100;
-            else if (A == 12)
-                seg = 7'b0111001;
-            else if (A == 13)
-                seg = 7'b1011110;
-            else if (A == 14)
                 seg = 7'b1111001;
+            else if (A == 2)
+                seg = 7'b0100100;
+            else if (A == 3)
+                seg = 7'b0110000;
+            else if (A ==4 )
+                seg = 7'b0011001;
+            else if (A == 5)
+                seg = 7'b0010010;
+            else if (A == 6)
+                seg = 7'b0000010;
+            else if (A == 7)
+                seg = 7'b1111000;
+            else if (A == 8)
+                seg = 7'b0000000;
+            else if (A == 9)
+                seg = 7'b0010000;
+            else if (A == 10)
+                seg = 7'b0001000;
+            else if (A == 11)
+                seg = 7'b0000011;
+            else if (A == 12)
+                seg = 7'b1000110;
+            else if (A == 13)
+                seg = 7'b0100001;
+            else if (A == 14)
+                seg = 7'b0000110;
             else if (A == 15)
-                seg = 7'b1110001;
+                seg = 7'b0001110;
         end
             
     

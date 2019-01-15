@@ -14,12 +14,12 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 13596 
+INFO: Helper process launched with PID 10972 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 362.344 ; gain = 100.906
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 362.055 ; gain = 100.082
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'seven_seg' [C:/Users/jcpsp/Desktop/githubs/ece3829_lab1/ece3829_lab1.srcs/sources_1/new/seven_seg.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'seven_seg' (1#1) [C:/Users/jcpsp/Desktop/githubs/ece3829_lab1/ece3829_lab1.srcs/sources_1/new/seven_seg.v:23]
+INFO: [Synth 8-6157] synthesizing module 'seven_seg' [C:/Users/jcpsp/Desktop/githubs/ece3829-lab1/ece3829_lab1.srcs/sources_1/new/seven_seg.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'seven_seg' (1#1) [C:/Users/jcpsp/Desktop/githubs/ece3829-lab1/ece3829_lab1.srcs/sources_1/new/seven_seg.v:23]
 WARNING: [Synth 8-3331] design seven_seg has unconnected port B[3]
 WARNING: [Synth 8-3331] design seven_seg has unconnected port B[2]
 WARNING: [Synth 8-3331] design seven_seg has unconnected port B[1]
@@ -33,7 +33,7 @@ WARNING: [Synth 8-3331] design seven_seg has unconnected port D[2]
 WARNING: [Synth 8-3331] design seven_seg has unconnected port D[1]
 WARNING: [Synth 8-3331] design seven_seg has unconnected port D[0]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 418.105 ; gain = 156.668
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 418.063 ; gain = 156.090
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -46,51 +46,51 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 418.105 ; gain = 156.668
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 418.063 ; gain = 156.090
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 418.105 ; gain = 156.668
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 418.063 ; gain = 156.090
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [C:/Users/jcpsp/Desktop/githubs/ece3829_lab1/ece3829_lab1.srcs/constrs_1/new/master.xdc]
-Finished Parsing XDC File [C:/Users/jcpsp/Desktop/githubs/ece3829_lab1/ece3829_lab1.srcs/constrs_1/new/master.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/jcpsp/Desktop/githubs/ece3829_lab1/ece3829_lab1.srcs/constrs_1/new/master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/seven_seg_propImpl.xdc].
+Parsing XDC File [C:/Users/jcpsp/Desktop/githubs/ece3829-lab1/ece3829_lab1.srcs/constrs_1/new/master.xdc]
+Finished Parsing XDC File [C:/Users/jcpsp/Desktop/githubs/ece3829-lab1/ece3829_lab1.srcs/constrs_1/new/master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/jcpsp/Desktop/githubs/ece3829-lab1/ece3829_lab1.srcs/constrs_1/new/master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/seven_seg_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/seven_seg_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 716.852 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 716.664 ; gain = 0.000
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 716.852 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 716.664 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 716.852 ; gain = 0.000
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 716.852 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 716.664 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 716.664 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 716.852 ; gain = 455.414
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 716.664 ; gain = 454.691
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 716.852 ; gain = 455.414
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 716.664 ; gain = 454.691
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 716.852 ; gain = 455.414
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 716.664 ; gain = 454.691
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5544] ROM "an" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "seg" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
-WARNING: [Synth 8-327] inferring latch for variable 'seg_reg' [C:/Users/jcpsp/Desktop/githubs/ece3829_lab1/ece3829_lab1.srcs/sources_1/new/seven_seg.v:45]
-WARNING: [Synth 8-327] inferring latch for variable 'an_reg' [C:/Users/jcpsp/Desktop/githubs/ece3829_lab1/ece3829_lab1.srcs/sources_1/new/seven_seg.v:41]
+WARNING: [Synth 8-327] inferring latch for variable 'seg_reg' [C:/Users/jcpsp/Desktop/githubs/ece3829-lab1/ece3829_lab1.srcs/sources_1/new/seven_seg.v:45]
+WARNING: [Synth 8-327] inferring latch for variable 'an_reg' [C:/Users/jcpsp/Desktop/githubs/ece3829-lab1/ece3829_lab1.srcs/sources_1/new/seven_seg.v:41]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 716.852 ; gain = 455.414
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 716.664 ; gain = 454.691
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -143,14 +143,14 @@ WARNING: [Synth 8-3331] design seven_seg has unconnected port D[3]
 WARNING: [Synth 8-3331] design seven_seg has unconnected port D[2]
 WARNING: [Synth 8-3331] design seven_seg has unconnected port D[1]
 WARNING: [Synth 8-3331] design seven_seg has unconnected port D[0]
-INFO: [Synth 8-3333] propagating constant 1 across sequential element (\an_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\an_reg[0] )
 INFO: [Synth 8-3886] merging instance 'an_reg[1]' (LD) to 'an_reg[3]'
 INFO: [Synth 8-3886] merging instance 'an_reg[2]' (LD) to 'an_reg[3]'
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\an_reg[3] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\an_reg[3] )
 WARNING: [Synth 8-3332] Sequential element (an_reg[3]) is unused and will be removed from module seven_seg.
 WARNING: [Synth 8-3332] Sequential element (an_reg[0]) is unused and will be removed from module seven_seg.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 716.852 ; gain = 455.414
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 716.664 ; gain = 454.691
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -162,13 +162,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 737.938 ; gain = 476.500
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 738.375 ; gain = 476.402
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 737.938 ; gain = 476.500
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 738.375 ; gain = 476.402
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -180,7 +180,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 747.543 ; gain = 486.105
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 747.980 ; gain = 486.008
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -204,7 +204,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 747.543 ; gain = 486.105
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 747.980 ; gain = 486.008
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -217,7 +217,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 747.543 ; gain = 486.105
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 747.980 ; gain = 486.008
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -229,25 +229,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 747.543 ; gain = 486.105
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 747.980 ; gain = 486.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 747.543 ; gain = 486.105
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 747.980 ; gain = 486.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 747.543 ; gain = 486.105
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 747.980 ; gain = 486.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 747.543 ; gain = 486.105
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 747.980 ; gain = 486.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -277,17 +277,17 @@ Report Instance Areas:
 |1     |top      |       |    32|
 +------+---------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 747.543 ; gain = 486.105
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 747.980 ; gain = 486.008
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 16 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 747.543 ; gain = 187.359
-Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 747.543 ; gain = 486.105
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 747.980 ; gain = 187.406
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 747.980 ; gain = 486.008
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 758.633 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 758.047 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 7 instances were transformed.
   LD => LDCE: 7 instances
@@ -295,10 +295,10 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 20 Infos, 28 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 758.633 ; gain = 510.066
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 758.633 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 758.047 ; gain = 509.484
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 758.047 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint 'C:/Users/jcpsp/Desktop/githubs/ece3829_lab1/ece3829_lab1.runs/synth_1/seven_seg.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/jcpsp/Desktop/githubs/ece3829-lab1/ece3829_lab1.runs/synth_1/seven_seg.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file seven_seg_utilization_synth.rpt -pb seven_seg_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Jan 14 09:17:36 2019...
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 14 19:00:30 2019...
