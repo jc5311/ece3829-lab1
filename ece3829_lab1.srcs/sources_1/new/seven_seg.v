@@ -41,7 +41,7 @@ module seven_seg(
             an = 4'b1110;
             
             //check value of A
-            if (A == 0)
+            if (A == 2'b00)
                 seg = 7'b1000000;
             else if (A == 1)
                 seg = 7'b1111001;
@@ -72,6 +72,125 @@ module seven_seg(
             else if (A == 14)
                 seg = 7'b0000110;
             else if (A == 15)
+                seg = 7'b0001110;
+        end
+        
+        else if (SEL == 2'b01)
+        begin
+            //turn on first seg-disp
+            an = 4'b1101;
+            
+            //check value of B
+            if (B == 0)
+                seg = 7'b1000000;
+            else if (B == 1)
+                seg = 7'b1111001;
+            else if (B == 2)
+                seg = 7'b0100100;
+            else if (B == 3)
+                seg = 7'b0110000;
+            else if (B ==4 )
+                seg = 7'b0011001;
+            else if (B == 5)
+                seg = 7'b0010010;
+            else if (B == 6)
+                seg = 7'b0000010;
+            else if (B == 7)
+                seg = 7'b1111000;
+            else if (B == 8)
+                seg = 7'b0000000;
+            else if (B == 9)
+                seg = 7'b0010000;
+            else if (B == 10)
+                seg = 7'b0001000;
+            else if (B == 11)
+                seg = 7'b0000011;
+            else if (B == 12)
+                seg = 7'b1000110;
+            else if (B == 13)
+                seg = 7'b0100001;
+            else if (B == 14)
+                seg = 7'b0000110;
+            else if (B == 15)
+                seg = 7'b0001110;
+        end
+        
+        else if (SEL == 2'b10)
+        begin
+            //turn on first seg-disp
+            an = 4'b1011;
+            
+            //check value of C
+            if (C == 0)
+                seg = 7'b1000000;
+            else if (C == 1)
+                seg = 7'b1111001;
+            else if (C == 2)
+                seg = 7'b0100100;
+            else if (C == 3)
+                seg = 7'b0110000;
+            else if (C ==4 )
+                seg = 7'b0011001;
+            else if (C == 5)
+                seg = 7'b0010010;
+            else if (C == 6)
+                seg = 7'b0000010;
+            else if (C == 7)
+                seg = 7'b1111000;
+            else if (C == 8)
+                seg = 7'b0000000;
+            else if (C == 9)
+                seg = 7'b0010000;
+            else if (C == 10)
+                seg = 7'b0001000;
+            else if (C == 11)
+                seg = 7'b0000011;
+            else if (C == 12)
+                seg = 7'b1000110;
+            else if (C == 13)
+                seg = 7'b0100001;
+            else if (C == 14)
+                seg = 7'b0000110;
+            else if (C == 15)
+                seg = 7'b0001110;
+        end
+        else if (SEL == 2'b11)
+        begin
+            //turn on first seg-disp
+            an = 4'b0111;
+            
+            //check value of D
+            if (D == 0)
+                seg = 7'b1000000;
+            else if (D == 1)
+                seg = 7'b1111001;
+            else if (D == 2)
+                seg = 7'b0100100;
+            else if (D == 3)
+                seg = 7'b0110000;
+            else if (D ==4 )
+                seg = 7'b0011001;
+            else if (D == 5)
+                seg = 7'b0010010;
+            else if (D == 6)
+                seg = 7'b0000010;
+            else if (D == 7)
+                seg = 7'b1111000;
+            else if (D == 8)
+                seg = 7'b0000000;
+            else if (D == 9)
+                seg = 7'b0010000;
+            else if (D == 10)
+                seg = 7'b0001000;
+            else if (D == 11)
+                seg = 7'b0000011;
+            else if (D == 12)
+                seg = 7'b1000110;
+            else if (D == 13)
+                seg = 7'b0100001;
+            else if (D == 14)
+                seg = 7'b0000110;
+            else if (D == 15)
                 seg = 7'b0001110;
         end
             

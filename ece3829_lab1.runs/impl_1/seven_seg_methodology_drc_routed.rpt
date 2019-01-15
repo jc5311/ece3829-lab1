@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date         : Mon Jan 14 19:01:56 2019
+| Date         : Tue Jan 15 05:43:43 2019
 | Host         : SilverPhantasm running 64-bit major release  (build 9200)
 | Command      : report_methodology -file seven_seg_methodology_drc_routed.rpt -pb seven_seg_methodology_drc_routed.pb -rpx seven_seg_methodology_drc_routed.rpx
 | Design       : seven_seg
@@ -23,15 +23,31 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 7
-+-----------+----------+-------------------+------------+
-| Rule      | Severity | Description       | Violations |
-+-----------+----------+-------------------+------------+
-| TIMING-20 | Warning  | Non-clocked latch | 7          |
-+-----------+----------+-------------------+------------+
+             Violations found: 10
++-----------+----------+------------------------------+------------+
+| Rule      | Severity | Description                  | Violations |
++-----------+----------+------------------------------+------------+
+| LUTAR-1   | Warning  | LUT drives async reset alert | 3          |
+| TIMING-20 | Warning  | Non-clocked latch            | 7          |
++-----------+----------+------------------------------+------------+
 
 2. REPORT DETAILS
 -----------------
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell seg_reg[1]_i_3, with 2 or more inputs, drives asynchronous preset/clear pin(s) seg_reg[1]/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#2 Warning
+LUT drives async reset alert  
+LUT cell seg_reg[5]_i_3, with 2 or more inputs, drives asynchronous preset/clear pin(s) seg_reg[0]/CLR, seg_reg[3]/CLR, seg_reg[4]/CLR, seg_reg[5]/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#3 Warning
+LUT drives async reset alert  
+LUT cell seg_reg[6]_i_3, with 2 or more inputs, drives asynchronous preset/clear pin(s) seg_reg[2]/CLR, seg_reg[6]/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
 TIMING-20#1 Warning
 Non-clocked latch  
 The latch seg_reg[0] cannot be properly analyzed as its control pin seg_reg[0]/G is not reached by a timing clock
